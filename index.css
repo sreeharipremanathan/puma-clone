@@ -1,0 +1,32 @@
+.navbar-nav a{
+    color: white;
+}
+.navbar-nav a:hover{
+    /* color: rgb(197, 197, 197); */
+    color: rgb(221, 221, 221);
+}
+.srch{
+    background-color: black;
+    border-color: white;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+::placeholder {
+    color: rgb(255, 250, 250);
+    opacity: 1;
+  }
+/* .nav-link img{
+    width: 25px;
+    height: 25px;
+} */
+.nav-link{
+    font-weight: bold;
+}
+.topad{
+    color: white;
+    text-align: center;
+}
+.topad p{
+    top: 30px;
+}
