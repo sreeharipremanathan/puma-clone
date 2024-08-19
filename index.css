@@ -30,3 +30,96 @@
 .topad p{
     top: 30px;
 }
+.main{
+    position: relative;
+}
+.new_style{
+    position: absolute;
+    /* right: 50px; */
+    left: 50px;
+    top: 280px;
+}
+.newstlye_head{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.new_style a{
+    margin-right: 4px;
+}
+.btn{
+    border-radius: 0px;
+}
+/* .suede{
+    position: relative;
+    background-color: rgba(42,92,94,255);
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.suede_dtls{
+    position:absolute ;
+    top: 360px;
+    left: 60px;
+}
+.suede_head{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.pic1{
+    position: relative;
+    left: 10px;
+} */
+
+.deviate{
+    position: relative;
+
+}
+.deviate_dtls{
+    position: absolute;
+    left: 50PX;
+    top: 150px;
+    color: white;
+}
+.deviate_dtls h2{
+    font-size: 40px;
+}
+.palermo{
+    position: relative;
+    background-color: rgba(223,213,207,255);
+}
+.palermo_dtls{
+    position: absolute;
+    color: rgba(24,24,24,255);
+    right: 70px;
+    text-align: center;
+    top: 200px;
+}
+.palermo_dtls h2{
+    font-size: 3vw;
+}
+.palermo_dtls p{
+    font-size: 25px;
+}
+.one_piece{
+    position: relative;
+}
+.op{
+    position: absolute;
+    color: rgba(223,213,207,255);
+    left: 50px;
+    top: 400px;
+    text-align: center;
+}
+.op h2{
+    font-size: 35;
+}
+.op p{
+    font-size: 23px;
+}
+.op .btn{
+    background-color: rgba(223,213,207,255);
+}
