@@ -51,7 +51,7 @@
 .btn{
     border-radius: 0px;
 }
-/* .suede{
+.suede{
     position: relative;
     background-color: rgba(42,92,94,255);
     width: 100%;
@@ -61,7 +61,7 @@
 }
 .suede_dtls{
     position:absolute ;
-    top: 360px;
+    top: 10px;
     left: 60px;
 }
 .suede_head{
@@ -70,9 +70,9 @@
     margin-bottom: 10px;
 }
 .pic1{
-    position: relative;
-    left: 10px;
-} */
+    position:absolute;
+    right: 300px;
+}
 
 .deviate{
     position: relative;
