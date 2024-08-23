@@ -178,8 +178,12 @@
     background-color: rgba(250,250,250,255);
 }
 .classicshoes{
-    margin-left: 250px;
-    margin-right: 250px;
+    position: relative;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+}
+.classicshoes h2{
+    left: 20px ;
 }
 .clr{
     background-color: rgba(250,250,250,255);
@@ -242,8 +246,8 @@ footer img{
     padding: 5px;
     margin-bottom: 5px;
 }
-@media screen and (max-width: 900px) {
-    .pic1{
-        right: 150px;
+@media only screen and (max-width: 578px) {
+    .threecards{
+        display: block;
     }
 }
