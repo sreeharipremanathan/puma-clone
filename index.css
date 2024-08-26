@@ -106,7 +106,7 @@
 
 .grid{
     display: grid;
-    grid-template-areas: 'mer fer';
+    grid-template-areas: 'merc fer';
 }
 .merc{
     grid-area: merc;
@@ -187,7 +187,7 @@
     margin-right: 250px; */
 }
 .classicshoes h2{
-    left: 20px ;
+    margin-left: 2%;
 }
 .clr{
     background-color: rgba(250,250,250,255);
@@ -279,5 +279,14 @@ footer img{
     .motoproducts{
         margin-left: 0%;
         margin-right: 0%;
+    }
+    .classic h4{
+        font-size: 3vw;
+    }
+    .cards img{
+        height: 400px;
+    }
+    .grid{
+        grid-template-areas: 'merc fer';
     }
 }
