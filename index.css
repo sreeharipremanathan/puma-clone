@@ -38,8 +38,8 @@
 .new_style{
     position: absolute;
     /* right: 50px; */
-    left: 50px;
-    top: 280px;
+    left: 8%;
+    top: 40%;
 }
 .newstlye_head{
     color: white;
@@ -63,9 +63,9 @@
 }
 .suede_dtls{
     position:absolute ;
-    top: 20px;
+    top: 4%;
     color: white;
-    left: 90px;
+    left: 6%;
 }
 .suede_head{
     color: white;
@@ -74,14 +74,15 @@
 }
 .pic1{
     position:absolute;
-    right: 90px;
+    right: 3%;
     top: -50px;
 }
 .pic2{
     position: absolute;
     /* bottom: -20px; */
-    top: 170px;
-    left: 90px;
+    top: 35%;
+    left: 6%;
+    /* left: 90px; */
 
 }
 .deviate{
@@ -202,9 +203,9 @@
 }
 .easy_dtls{
     position:absolute ;
-    top: 20px;
+    top: 4%;
     color: white;
-    left: 90px;
+    left: 6%;
 }
 .easy_head{
     color: white;
@@ -213,14 +214,14 @@
 }
 .easy1{
     position:absolute;
-    right: 90px;
+    right: 4%;
     top: -30px;
 }
 .easy2{
     position: absolute;
     /* bottom: -20px; */
-    top: 170px;
-    left: 90px;
+    top: 35%;
+    left: 6%;
 
 }
 .threecards{
@@ -287,6 +288,18 @@ footer img{
         height: 400px;
     }
     .grid{
-        grid-template-areas: 'merc fer';
+        grid-template-areas: 'merc'
+        'fer';
     }
+    .newstlye_head{
+        font-size: 3vw;
+        left: 10px;
+        top: 50px;
+
+    }
+    .new_style a{
+        font-size: 4px;
+        margin: 0px;
+    }
+
 }
