@@ -76,6 +76,8 @@
     position:absolute;
     right: 3%;
     top: -50px;
+    /* height: 650px;
+    width: 90%; */
 }
 .pic2{
     position: absolute;
@@ -91,30 +93,31 @@
 }
 .deviate_dtls{
     position: absolute;
-    left: 50PX;
-    top: 150px;
+    left: 4%;
+    top: 15%;
     color: white;
 }
 .deviate_dtls h2{
     font-size: 40px;
 }
-/* .gri{
-    display: flex;
-    background-color: rgba(250,250,250,255);
-    margin-left: 150px;
-    margin-right: 150px;
-} */
-
 .grid{
+    display: flex;
+    flex: 50%;
+    background-color: rgba(250,250,250,255);
+    /* margin-left: 150px;
+    margin-right: 150px; */
+}
+
+/* .grid{
     display: grid;
-    grid-template-areas: 'merc fer';
+    grid-template-areas: 'merc merc fer fer';
 }
 .merc{
     grid-area: merc;
 }
 .fer{
     grid-area: fer;
-}
+} */
 .palermo{
     position: relative;
     background-color: rgba(223,213,207,255);
@@ -232,6 +235,10 @@
     margin: 10px 10px;
     background-color: white;
 }
+.cards img{
+    width: 100%;
+    height: 500px;
+}
 footer{
     display: flex;
 }
@@ -264,6 +271,30 @@ footer img{
     .op a{
         font-size: 2vw;
     }
+    .grid{
+        display: block;
+    }
+    .pic1{
+        position: absolute;
+        right: 0%;
+        top: 0px;
+        width: 100%;
+        height: 500px;
+    }
+    .pic2{
+        position: absolute;
+        height: 10%;
+        width: 90%;
+    }
+    .deviate_dtls h2{
+        font-size: 4vw;
+    }
+    .deviate_dtls p{
+        font-size: 2vw;
+    }
+    .deviate_dtls a{
+        font-size: 1vw;
+    }
     .palermo_dtls h2{
         font-size: 4vw;
     }
@@ -285,12 +316,13 @@ footer img{
         font-size: 3vw;
     }
     .cards img{
+        width: 100%;
         height: 400px;
     }
-    .grid{
+    /* .grid{
         grid-template-areas: 'merc'
         'fer';
-    }
+    } */
     .newstlye_head{
         font-size: 3vw;
         left: 10px;
@@ -302,4 +334,113 @@ footer img{
         margin: 0px;
     }
 
+}
+@media only screen and (max-width:768px) and (min-width:576px){
+    .threecards{
+        display: block;
+    }
+    .palermo_dtls h2{
+        font-size: 4vw;
+    }
+    .palermo_dtls p{
+        font-size: 2vw;
+    }
+    .palermo_dtls a{
+        font-size: 1vw;
+    }
+    .palermo_dtls{
+        top: 20%;
+        right: 5%;
+    }
+    .newstlye_head{
+        font-size: 3vw;
+        left: 10px;
+        top: 50px;
+
+    }
+    .new_style a{
+        font-size: 9px;
+        margin: 0px;
+    }
+    .deviate_dtls h2{
+        font-size: 4vw;
+    }
+    .deviate_dtls p{
+        font-size: 2vw;
+    }
+    .deviate_dtls a{
+        font-size: 1vw;
+    }
+    .grid{
+        /* display: block; */
+        height: 480px;
+    }
+    .classic h4{
+        font-size: 2vw;
+    }
+    .op h2{
+        font-size: 4vw;
+    }
+    .op p{
+        font-size: 2vw;
+    }
+    .op a{
+        font-size: 1vw;
+    }
+    .cards img{
+        height: 500px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    .threecards{
+        display: block;
+    }
+    .cards img{
+        height: 500px;
+        width: 400px;
+    }
+    .newstlye_head{
+        font-size: 3vw;
+        left: 10px;
+        top: 50px;
+    }
+    .new_style a{
+        font-size: 11px;
+        margin: 0px;
+    }
+    .deviate_dtls h2{
+        font-size: 4vw;
+    }
+    .deviate_dtls p{
+        font-size: 2vw;
+    }
+    .deviate_dtls a{
+        font-size: 1vw;
+    }
+    .palermo_dtls h2{
+        font-size: 4vw;
+    }
+    .palermo_dtls p{
+        font-size: 2vw;
+    }
+    .palermo_dtls a{
+        font-size: 1vw;
+    }
+    .palermo_dtls{
+        top: 20%;
+        right: 5%;
+    }
+    .op h2{
+        font-size: 3vw;
+    }
+    .op p{
+        font-size: 2vw;
+    }
+    .op a{
+        font-size: 1vw;
+    }
+    .cards img{
+        width: 100%;
+        height: 650px;
+    }
 }
