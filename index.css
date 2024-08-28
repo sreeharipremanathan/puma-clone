@@ -65,7 +65,7 @@
     position:absolute ;
     top: 4%;
     color: white;
-    left: 6%;
+    left: 10%;
 }
 .suede_head{
     color: white;
@@ -76,16 +76,23 @@
     position:absolute;
     right: 3%;
     top: -50px;
-    /* height: 650px;
-    width: 90%; */
+    height: 600px;
+    /* width: 90%; */
 }
 .pic2{
     position: absolute;
     /* bottom: -20px; */
     top: 35%;
-    left: 6%;
+    left: 10%;
+    /* height: 300px; */
     /* left: 90px; */
 
+}
+.pic1{
+    height: 600px;
+}
+.pic2 img{
+    height: 470px;
 }
 .deviate{
     position: relative;
@@ -208,7 +215,7 @@
     position:absolute ;
     top: 4%;
     color: white;
-    left: 6%;
+    left: 10%;
 }
 .easy_head{
     color: white;
@@ -217,15 +224,22 @@
 }
 .easy1{
     position:absolute;
-    right: 4%;
+    right: 6%;
     top: -30px;
+    /* height: 600px; */
+}
+.easy1 img{
+    height: 600px;
 }
 .easy2{
     position: absolute;
     /* bottom: -20px; */
     top: 35%;
-    left: 6%;
-
+    left: 10%;
+    /* height: 350px; */
+}
+.easy2 img{
+    height: 450px;
 }
 .threecards{
     display: flex;
@@ -274,17 +288,67 @@ footer img{
     .grid{
         display: block;
     }
+    .suede_dtls{
+        top: 30%;
+    }
+    .suede_dtls h2{
+        font-size: 5vw;
+    }
+    .suede_dtls p{
+        font-size: 3vw;
+    }
+    .suede_dtls a{
+        font-size: 2vw;
+    }
     .pic1{
         position: absolute;
         right: 0%;
-        top: 0px;
+        top: -40px;
         width: 100%;
         height: 500px;
+    }
+    .pic1 img{
+        height: 400px;
     }
     .pic2{
         position: absolute;
         height: 10%;
         width: 90%;
+        left: 10%;
+        top: 65%;
+    }
+    .pic2 img{
+        height: 250px;
+    }
+  
+    .easy_dtls{
+        top: 30%;
+    }
+    .easy_dtls h2{
+        font-size: 5vw;
+    }
+    .easy_dtls p{
+        font-size: 3vw;
+    }
+    .easy_dtls a{
+        font-size: 2vw;
+    }
+    .easy1{
+        right: 0%;
+        top: -30px;
+        width: 100%;
+        height: 500px;
+    }
+    .easy1 img{
+        height: 390px;
+    }
+    .easy2{
+        width: 90%;
+        left: 10%;
+        top: 61%;
+    }
+    .easy2 img{
+        height: 250px;
     }
     .deviate_dtls h2{
         font-size: 4vw;
@@ -346,7 +410,7 @@ footer img{
         font-size: 2vw;
     }
     .palermo_dtls a{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     .palermo_dtls{
         top: 20%;
@@ -362,6 +426,47 @@ footer img{
         font-size: 9px;
         margin: 0px;
     }
+    .suede_dtls a{
+        font-size: 2vw;
+    }
+    .pic1{
+        position: absolute;
+        right: 0%;
+        top: -40px;
+        height: 500px;
+    }
+    .pic1 img{
+        height: 490px;
+    }
+    .pic2{
+        position: absolute;
+        height: 10%;
+        left: 5%;
+        top: 60%;
+    }
+    .pic2 img{
+        height: 290px;
+    }
+    .easy1{
+        right: 0%;
+        top: -30px;
+        /* width: 100%; */
+        height: 500px;
+    }
+    .easy1 img{
+        height: 400px;
+    }
+    .easy2{
+        /* width: 90%; */
+        left: 5%;
+        top: 61%;
+    }
+    .easy2 img{
+        height: 300px;
+    }
+    .easy_dtls a{
+        font-size: 2vw;
+    }
     .deviate_dtls h2{
         font-size: 4vw;
     }
@@ -369,7 +474,7 @@ footer img{
         font-size: 2vw;
     }
     .deviate_dtls a{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     .grid{
         /* display: block; */
@@ -415,7 +520,7 @@ footer img{
         font-size: 2vw;
     }
     .deviate_dtls a{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     .palermo_dtls h2{
         font-size: 4vw;
@@ -424,7 +529,7 @@ footer img{
         font-size: 2vw;
     }
     .palermo_dtls a{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     .palermo_dtls{
         top: 20%;
@@ -443,4 +548,41 @@ footer img{
         width: 100%;
         height: 650px;
     }
+    .pic1{
+        position: absolute;
+        right: 0%;
+        top: -40px;
+        /* width: 100%; */
+        height: 590px;
+    }
+    .pic1 img{
+        height: 490px;
+    }
+    .pic2{
+        position: absolute;
+        height: 10%;
+        left: 5%;
+        top: 60%;
+    }
+    .pic2 img{
+        height: 290px;
+    }
+    .easy1{
+        right: 0%;
+        top: -30px;
+        height: 500px;
+    }
+    .easy1 img{
+        height: 400px;
+    }
+    .easy2{
+        left: 5%;
+        top: 61%;
+    }
+    .easy2 img{
+        height: 300px;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    
 }
